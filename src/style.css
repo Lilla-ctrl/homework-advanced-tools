@@ -95,3 +95,39 @@ p {
   font-weight: bold;
   padding-bottom: 10px;
 }
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  h2 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .navigation-links {
+    margin: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .image-index {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .app-description {
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .launch-button {
+    width: 100%;
+  }
+}
